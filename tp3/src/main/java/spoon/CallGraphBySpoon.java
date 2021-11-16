@@ -75,6 +75,8 @@ public class CallGraphBySpoon {
 				List<String> val2 = e2.getValue();
 				int c = counterItem(key2, val2);
 				distance.add(c);
+				
+				System.out.println("couple : (" + key + " " + key2 +" ; "+ c + ")");
 			}
 			groups.put(key, distance);
 		}
